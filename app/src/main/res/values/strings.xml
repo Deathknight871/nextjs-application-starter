@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Carteira Virtual</string>
+    
+    <!-- MainActivity -->
+    <string name="error_usb_permission_denied">Permissão negada para acessar o pendrive</string>
+    <string name="error_no_usb_device">Nenhum pendrive detectado</string>
+    <string name="error_wallet_init">Falha ao inicializar a carteira</string>
+    <string name="error_generic">Erro: %1$s</string>
+    
+    <!-- WalletActivity -->
+    <string name="wallet_title">Carteira Virtual</string>
+    <string name="wallet_balance">Saldo: R$ %1$.2f</string>
+    <string name="wallet_user_name">Nome do Usuário</string>
+    <string name="btn_start_game">Iniciar Jogo</string>
+    <string name="btn_refresh">Atualizar Dados</string>
+    <string name="error_load_wallet">Erro ao carregar dados da carteira</string>
+    <string name="success_refresh">Dados atualizados</string>
+    
+    <!-- GameActivity -->
+    <string name="game_pot">Pote do Jogo: R$ %1$.2f</string>
+    <string name="current_balance">Saldo Atual: R$ %1$.2f</string>
+    <string name="btn_collect_token">Coletar Ficha (R$ 1,00)</string>
+    <string name="btn_finish_game">Finalizar Jogo</string>
+    <string name="game_info">Cada ficha coletada custa R$ 1,00 e será adicionada ao pote do jogo</string>
+    <string name="error_insufficient_balance">Saldo insuficiente</string>
+    <string name="error_update_balance">Erro ao atualizar saldo</string>
+    <string name="dialog_finish_game_title">Finalizar Jogo</string>
+    <string name="dialog_finish_game_message">Deseja finalizar o jogo e transferir R$ %1$.2f para o vencedor?</string>
+    <string name="dialog_yes">Sim</string>
+    <string name="dialog_no">Não</string>
+    <string name="success_game_finished">Jogo finalizado! Valor transferido com sucesso</string>
+    <string name="error_transfer">Erro ao transferir valor para o vencedor</string>
+    <string name="dialog_back_title">Atenção</string>
+    <string name="dialog_back_message">Existe um valor no pote do jogo. Deseja realmente sair?</string>
+</resources>
